@@ -9,23 +9,23 @@ Computer Science PhD Researcher at [Newcastle University](https://www.ncl.ac.uk/
 
 ## Research Summary
 
-My research investigates the design and implementation of next generation sensors and analytics systems for healthcare IoT technologies. I am investigating how [federated learning](https://arxiv.org/pdf/1602.05629.pdf) [1] systems can 
-be designed to run at-scale with inexpensive, resource-constrained devices for the analysis of wearable IoT devices. The benefits to using federated learning as opposed to traditional centralized machine learning (where the data is simply aggregated on the cloud) is the inherent privacy guarantees (data doesn't leave the data-owners local network) and communication efficiency (data is not transmitted to a central cloud-storage resource - only model updates/gradients) improvments.
-
-At the lowest-level of my system I am developing custom wearable devices that collect data from a multitude of different sources to help develop context-aware understandings of human-gait in the free-living environment.
-The analysis of the collected gait data is envisioned to help identify biomarkers in patients with neurodegenerative conditions. These wearables use a range of different sensors that measure readings, such as, acceleration, location, and atmospheric pressure, to help understand not only human movement, but also the surrounding environment, to help further understand the subtelities in the recorded signals. Part of my research will explore the benefits to running machine learning and signal processing algorithms directly at the source of data collection, potentially improving communication efficiency and making use of all available computational resources. 
-
+My research investigates the design and implementation of next generation sensors and analytics systems for the analysis of wearable sensor data. I am investigating how [federated learning](https://arxiv.org/pdf/1602.05629.pdf) systems can
+be designed to run at-scale using inexpensive, low-powered devices for the analysis of data generated from wearable devices. This work involves creating a mulit-layer, cloud-edge computing system that will enable the deployment of federated learning algorithms at-scale.  Federated Learning is an important topic in machine learning as it allows practitioners to train analytical models across decentralised data-sources. This is incredibly useful in situations where personal data is being collected and cannot be directly uploaded to cloud infrastructures - either due to privacy regulations, such as, the GDPR and HIPAA, and also where bandwidth constraints prohibits continuous data uploads (deployment in developing economies). The majority of the analytics is done locally on edge-computing nodes, where computational and communication resources are scarce - motivating the design of resource-efficient machine learning methods.
 
 ## Research Interests
 
 - Federated Learning
-- Scalable Computing
-- Embedded Program
+- Distributed Computing
+- Resouce-efficient Machine Learning
+- Embedded Systems
 - Edge Computing
-- Signal Processing
-- Gait Analytics
+- Human Activity Recognition 
 
+## Publications
 
-## References
+1. McQuire, J., Watson, P., Wright, N., Hiden, H., Catt, M. Uneven and Irregular Surface Condition Prediction from Human Walking Data using both Centralized and Decentralized Machine Learning Approaches. In 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE.
 
-1. McMahan, B., Moore, E., Ramage, D., Hampson, S. and y Arcas, B.A., 2017, April. Communication-efficient learning of deep networks from decentralized data. In Artificial intelligence and statistics (pp. 1273-1282). PMLR.
+## Talks
+
+1. Uneven and Irregular Surface Condition Prediction from Human Walking Data using both Centralized and Decentralized Machine Learning Approaches. IEEE International Conference on Bioinformatics and Biomedicine (BIBM), December 2021.
+2. Preservation of Patient Confidentiality using Edge Computing and Distributed Machine Learning: An Early Proof of Concept Study. Sixth Annual UK Systems Research Challenges Workshop, December 2021.
