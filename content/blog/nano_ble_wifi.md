@@ -123,7 +123,7 @@ void loop() {
 
 ```
 
-There you go! Your Nano should now be connected to the local WiFi network! If you have any issues with this feel free to send me an email. In my next blog I will extend the WiFi capabilities of this device to send MQTT readings to a local machine!
+There you go! Your Nano should now be connected to the local WiFi network! If you have any issues with this feel free to send me an email.
 
 Jamie McQuire
 
